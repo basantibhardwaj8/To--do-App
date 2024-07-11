@@ -102,9 +102,9 @@ const TaskList = () => {
     dispatch(deleteTask(id));
   };
 
-  const handleEdit = (id, newText) => {
-    dispatch(updateTask(id, newText));
-  };
+  // const handleEdit = (id, newText) => {
+  //   dispatch(updateTask(id, newText));
+  // };
 
   // State to manage which task is being edited
   const [editTaskId, setEditTaskId] = useState(null);
